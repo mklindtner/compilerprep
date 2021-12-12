@@ -1,0 +1,14 @@
+p1 = Point{x=15, y=30};
+p2 = Point{x=200, y=300};
+area = (p2.x-p1.x)*(p2.y-p1.y);
+line = Line{start=p1, end=p2};
+slope = (line.end.y-line.start.y)/(line.end.x-line.start.x);
+line.start.x=30;
+
+output area;
+/*output slope;
+output line.start.x;
+output line.start.y;
+output line.end.x;
+output line.end.y;*/
+

@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "": true,
+        "*.class": true,
+        "*.interp": true,
+        "*.tokens": true,
+        "Environment.java": true,
+        "impl*.java": true
+    }
+}

@@ -1,0 +1,15 @@
+void swap(Integer a, Integer  b){
+     Integer tmp=a;
+     a=b;
+     b=tmp;
+}
+
+
+void main(){
+     int x=3;
+     int y=5;
+     swap(x,y);
+     if (x==5 && y==3){
+     	***
+     }
+}
